@@ -1,0 +1,11 @@
+[package]
+name = "pyrst_collections"
+version = "0.0.1"
+authors = ["Zack M. Davis <code@zackmdavis.net>"]
+
+[lib]
+name = "pyrst_collections"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.2"
